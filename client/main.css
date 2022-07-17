@@ -1,0 +1,76 @@
+body {
+  border: 4px solid teal;
+}
+
+#main-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+header{
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#page-header, 
+#loginForm {
+  font-size: 16px;
+  margin-left: 0px;
+  border-bottom: 4px solid teal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  font-size: 12px;
+  width: 20%;
+  height: 50%;
+}
+
+#logo img{
+  height: 25px;
+  width: 25px;
+  margin-left: 12px;
+}
+
+#logoutBtn, #loginBtn {
+  border: 2px solid black;
+  margin-right: 12px;
+  width: 10%;
+  height: 25%;
+  /* padding: 4px; */
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.product-image{
+  height: 24px;
+  width: 24px;
+}
+
+#welcomeMsg{
+  font-size: 24px;
+}
+
+#welcomeToStoreMsg{
+  font-size: 30px;
+  text-align: center;
+}
+
